@@ -33,8 +33,8 @@ const projectData = [
     title: "Portfolio Website",
     description:
       "Designed and developed a personal portfolio website using React.js.",
-    live: "https://your-portfolio-link.com",
-    github: "https://github.com/yourusername/portfolio"
+    live: "https://portfolio-nine-ashen-wijp6dlbjh.vercel.app/",
+    github: "https://github.com/Abinayashree25/portfolio"
   }
 ];
 
