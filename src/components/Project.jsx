@@ -59,9 +59,7 @@ return (
             <button>View Project</button>
           </a>
 
-          <a href={project.github} target="_blank" rel="noopener noreferrer">
-            <button className={Abi.githubBtn}>GitHub</button>
-          </a>
+          
 
         </div>
 
