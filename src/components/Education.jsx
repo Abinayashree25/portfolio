@@ -6,7 +6,7 @@ const Education = () => {
       <h1 className={Educat.educatTitle}>Education</h1>
 
       <div className={Educat.eduCard}>
-        <h3>B.E – Computer Science and Engineering</h3>
+        <h3>B.E – CSE</h3>
         <p>Arunachala College of Engineering</p>
         <span>2022 – 2026</span>
         <h4>CGPA: 8.24</h4>
