@@ -1,7 +1,7 @@
 import Strong from './About.module.css'
 import Button from './Button.jsx'
 import picture from "../assets/profile.jpg";
-import Doms from "../assets/abi.resume.pdf"
+import Doms from "../assets/abinayaresume25.pdf"
 
 const About = () => {
   return (

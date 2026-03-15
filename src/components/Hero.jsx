@@ -2,7 +2,7 @@ import Park from './Hero.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import picture from "../assets/formal.png";
-import Don from "../assets/abi.resume.pdf"
+import Don from "../assets/abinayaresume25.pdf"
 const Hero = () => {
     return <>
         <div className={Park.card} id="Home">
