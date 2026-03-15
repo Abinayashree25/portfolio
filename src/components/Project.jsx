@@ -14,7 +14,7 @@ const projectData = [
     description:
       "Developed a responsive e-commerce website using HTML and CSS.",
     live: "https://e-commercewebsite01.netlify.app/",
-    github: "https://github.com/Abinayashree25/demo"
+    
   },
   {
     id: 2,
@@ -23,8 +23,8 @@ const projectData = [
     title: "Native Website",
     description:
       "Built a responsive native website using HTML, CSS, and JavaScript.",
-    live: "https://native-25.netlify.app/",
-    github: "https://github.com/Abinayashree25/native"
+    live: "https://native-25.netlify.app/"
+    
   },
   {
     id: 3,
@@ -33,8 +33,8 @@ const projectData = [
     title: "Portfolio Website",
     description:
       "Designed and developed a personal portfolio website using React.js.",
-    live: "https://portfolio-nine-ashen-wijp6dlbjh.vercel.app/",
-    github: "https://github.com/Abinayashree25/portfolio"
+    live: "https://portfolio-nine-ashen-wijp6dlbjh.vercel.app/"
+    
   }
 ];
 
