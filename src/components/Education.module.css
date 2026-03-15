@@ -1,0 +1,122 @@
+.educationSection{
+  background-color: rgb(9, 9, 23);
+  padding:60px;
+  display:flex;
+  flex-direction:column;
+  gap:25px;
+  align-items:center;
+  color: white;
+  /* width: 100%; */
+  
+}
+.educatTitle{
+  font-size: 40px;
+}
+
+
+
+.eduCard:hover{
+  transform:translateY(-5px);
+  box-shadow:0 0 20px rgba(230, 74, 7, 0.812);
+  
+}
+
+.eduCard h3{
+  /* color: orangered; */
+   color:#00d9ff;
+  font-size: 20px;
+  margin-bottom:8px;
+}
+
+.eduCard span{
+  color:#aaa;
+  font-size:14px;
+}
+
+.eduCard h4{
+  margin-top:10px;
+} 
+
+.eduCard{
+  width:320px;
+  height: 150px;
+  padding:25px;
+  background:#1c1c1c;
+  border-radius:10px;
+  color:white;
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+  cursor:pointer;
+}
+@media screen and (min-width:0px) and (max-width:768px){
+
+.educationSection{
+  padding:40px 20px;
+  gap:20px;
+}
+
+.educatTitle{
+  font-size:30px;
+  text-align:center;
+}
+
+.eduCard{
+  width:100%;
+  max-width:230px;
+  padding:20px;
+}
+
+.eduCard h3{
+  font-size:20px;
+}
+
+.eduCard p{
+  font-size:15px;
+}
+
+.eduCard span{
+  font-size:13px;
+}
+
+.eduCard h4{
+  font-size:15px;
+}
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+  .educationSection{
+    padding:50px 40px;
+    gap:25px;
+    flex-direction: column; /* stack heading and cards vertically */
+    align-items: center;    /* center everything */
+  }
+
+  .educatTitle{
+    font-size:34px;
+    text-align:center;
+    margin-bottom:30px; /* space between heading and cards */
+  }
+
+  .eduCard{
+    width:80%;           /* make cards narrower than full width */
+    max-width:350px;
+    height:160px;
+    padding:25px;
+  }
+
+  .eduCard h3{
+    font-size:22px;
+  }
+
+  .eduCard p{
+    font-size:16px;
+  }
+
+  .eduCard span{
+    font-size:14px;
+  }
+
+  .eduCard h4{
+    font-size:16px;
+  }
+}

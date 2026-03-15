@@ -1,0 +1,161 @@
+.project{
+ background-color: rgb(9, 9, 23);
+color:white;
+padding:30px 23%;
+/* width: 100%; */
+}
+
+.projectTitle{
+font-size:40px;
+margin-bottom:50px;
+}
+
+.projectCard{
+display:flex;
+align-items:center;
+gap:40px;
+margin-bottom:60px;
+/* background:#1a1a24; */
+padding:30px;
+border-radius:12px;
+transition:0.4s;
+}
+
+.projectCard:hover{
+transform:translateY(-5px);
+  box-shadow:0 0 20px rgba(230, 74, 7, 0.812);
+}
+
+.projectImage img{
+width:420px;
+height: 300px;
+border-radius:8px;
+}
+
+.projectContent h4{
+color:#8bd5ff;
+font-size:14px;
+margin-bottom:10px;
+}
+
+.projectContent h2{
+font-size:28px;
+margin-bottom:15px;
+}
+
+.projectContent p{
+color:#cfcfcf;
+line-height:1.6;
+margin-bottom:20px;
+max-width:450px;
+}
+
+.projectContent button{
+background:#3b82f6;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.projectContent button:hover{
+background:#2563eb;
+}
+.githubBtn{
+margin-left:10px;
+background-color:black;
+color:white;
+border:none;
+padding:8px 16px;
+cursor:pointer;
+}
+@media screen and (min-width:0px) and (max-width:768px){
+
+.project{
+padding:40px 20px;
+}
+
+.projectTitle{
+font-size:30px;
+text-align:center;
+margin-bottom:40px;
+}
+
+.projectCard{
+flex-direction:column;
+text-align:center;
+gap:20px;
+padding:20px;
+}
+
+.projectImage img{
+width:100%;
+max-width:320px;
+height:auto;
+}
+
+.projectContent h2{
+font-size:22px;
+}
+
+.projectContent p{
+font-size:15px;
+max-width:100%;
+}
+
+.projectContent button{
+padding:8px 16px;
+font-size:14px;
+margin-top:5px;
+}
+
+.githubBtn{
+margin-left:8px;
+}
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+
+.project{
+padding:50px 60px;
+}
+
+.projectTitle{
+font-size:35px;
+text-align:center;
+margin-bottom:50px;
+}
+
+.projectCard{
+display:flex;
+align-items:center;
+gap:30px;
+padding:25px;
+}
+
+.projectImage img{
+width:320px;
+height:auto;
+}
+
+.projectContent h2{
+font-size:24px;
+}
+
+.projectContent p{
+font-size:16px;
+max-width:100%;
+}
+
+.projectContent button{
+padding:9px 18px;
+font-size:15px;
+}
+
+.githubBtn{
+margin-left:10px;
+}
+
+}
