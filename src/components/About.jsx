@@ -26,7 +26,7 @@ const About = () => {
             style={{ textDecoration: "none", color: "white" }}
           >
             <Button
-              val="Download CV"
+              val="View Resume"
               cl="white"
               br="30px"
               pa="10px 20px"
